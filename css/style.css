@@ -36,16 +36,24 @@ color: var(--black-color);}
 
 .list {list-style: none;}
 .link { text-decoration: none;
-    color: inherit;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    color: inherit;   
 }
 .accent{ color: var(--logo-color);}
 .accent-footer{color: var(--white-color);}
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
 /*-----------HEADER----------------*/
-.nav-list .header-nav-link.current{
+.nav-list .header-link.current{
     color: var(--blue-color);
 }
 .logo {
@@ -60,8 +68,14 @@ color: var(--blue-color);
     
     color: var(--black-color)
 }
-.header-nav-link:hover, .header-nav-link:focus, .header-contacs-link:hover,
-.header-contacs-link:focus{
+.header-link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+}
+.header-link:hover, .header-link:focus{
 color: var(--blue-color);
 }
 
@@ -76,7 +90,7 @@ color: var(--blue-color);
     color: var(--white-color);
 }
 .hero{ background-color: var(--footer-color);}
-.hero-btn{ font-family: 'Roboto', sans-serif;
+button.hero-btn{ font-family: inherit;
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -112,7 +126,7 @@ color: var(--black-color);
 border: 1px solid #000000;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
-.team-title {font-weight: 500;
+.team-item {font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -125,11 +139,18 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;}
 /*--------------FOOTER------------------*/
+address{
+    font-style: inherit;
+}
 .footer-link[target="_blank"]{
     color: var(--white-color);
 }
 .footer-link {
-
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
 color: rgba(225, 225, 225, 0.6)}
 
 .footer-link:hover, .footer-link:focus{
@@ -139,13 +160,13 @@ color: rgba(225, 225, 225, 0.6)}
 .footer-link-contacs{
 
 color: var(--white-color);}
-.fotter-link-contacs:hover, .fotter-link-contacs:focus {
+.fotter-link:hover, .fotter-link:focus {
     color: var(--blue-color);
 }
 
 .footer{background: var(--footer-color);}
 /*----------------------FILTER-----------------------*/
-.filter-btn{font-family: 'Roboto';
+button.filter-btn{font-family: 'Roboto';
 
     font-weight: 500;
     font-size: 16px;
