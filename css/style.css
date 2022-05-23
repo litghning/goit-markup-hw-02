@@ -52,7 +52,9 @@ color: var(--black-color);}
     
     color: var(--white-color);
 }
+
 /*-----------HEADER----------------*/
+
 .nav-list .header-link.current{
     color: var(--blue-color);
 }
@@ -80,6 +82,7 @@ color: var(--blue-color);
 }
 
 /*-------------Hero--------------*/
+
 .hero-title{
     font-weight: 900;
     font-size: 44px;
@@ -107,6 +110,7 @@ background-color: var(--blue-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 } 
+
 /*-----------------Peculiarities------------*/
 
 
@@ -122,22 +126,19 @@ color: var(--black-color);
 }
 
 /*-----------------TEAM---------------*/
-.team{ background: var(--grey-color);
-border: 1px solid var(--logo-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
-.team-title{text-align: center;}
-.team-item {font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
+.team{ background: var(--grey-color);}
+.team-title{
+font-weight: 500;
 color: var(--black-color);}
-
-.team-text {
+.team-item {
+text-align: center;}
+.team-text, .team-title {
 font-size: 16px;
 line-height: 1.18;
-text-align: center;}
+}
 
 /*--------------FOOTER------------------*/
+
 address{
     font-style: inherit;
 }
@@ -156,15 +157,15 @@ color: rgba(225, 225, 225, 0.6)}
     color: var(--blue-color);
 }
 
-.footer-link-contacs{
 
-color: var(--white-color);}
-.fotter-link:hover, .fotter-link:focus {
+.footer-link:hover, .footer-link:focus {
     color: var(--blue-color);
 }
 
 .footer{background: var(--footer-color);}
+
 /*----------------------FILTER-----------------------*/
+
 button.filter-btn{font-family: 'Roboto';
 
     font-weight: 500;
@@ -174,7 +175,7 @@ button.filter-btn{font-family: 'Roboto';
     letter-spacing: 0.03em;
     color: var(--black-color);
 }
-.filter-btn:hover, .filter-btnfocus {
+.filter-btn:hover, .filter-btnfocus {color: var(--white-color);
 background: var(--blue-color);
 /* shadow-middle */
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -182,7 +183,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
+
 /*--------------------PORTFOLIO-------------------------*/
+
 .portfolio-title{
     font-weight: 700;
     font-size: 18px;
